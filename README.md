@@ -1,10 +1,17 @@
 # Prism.js
-<img src="Prism.js.png" alt="Logotipo do Prism.js">
+
+Prism.js é um script básico feito em JavaScript, que utliziando o pacote [ipinfo](https://www.npmjs.com/package/ipinfo) consegue a partir de um certo IP, mostrar informações aproximadas, como país, cidade, estado, geo-localização entre outraos...
+
+A função do script é bascimente validar se o ip passado por parametro é valido e caso positivo, mostrar as informações sobre o mesmo.
+
+## Instalação
+Você precisa do pacote ipinfo para o script funcionar, para adiciona-lo simplesmente use o npm:
+
+`npm add ipinfo`
+
+## Uso
+`node index.js <ip>`
+
+Nesse exemplo o comando dado foi: `node index.js 8.8.8.8`
+
 <img src="screenshot.png" alt="Screenshot do Prism.js em execução com o DNS do Google">
-Prism.js é um programa de rastreamento básico feito em JavaScript, que a partir de um certo IP, mostra informações aproximadas, tais como país, cidade, estado, geo-localização aproximada...
-
-<h2>Responsabilidade</h2>
-Não me responsabilizo pelo uso indevido deste código. Prism.js foi criado para fins acadêmicos, principalmente para entender conceitos de Redes de Computadores e APIs.
-
-<h2>Uso</h2>
-<b>node index.js &lt;ip&gt;</b>
